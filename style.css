@@ -15,7 +15,7 @@
 
 body {
     width: 100%;
-    background: url('images/background.jpg') center/cover no-repeat; /* Replace 'images/background.jpg' with the correct path to your image */
+    background: url('images/background.jpg') center/cover no-repeat; 
     height: 100vh;
     display: grid;
     place-items: center;
@@ -40,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+    background: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
     padding: 20px;
     box-shadow: 5px 5px 20px var(--box-shadow-color);
@@ -53,7 +53,7 @@ body {
 }
 
 .container img {
-    width: 120px; /* Adjust the width of the dice images */
+    width: 120px; 
     border-radius: 5px;
     box-shadow: 5px 5px 20px var(--box-shadow-color);
 }
@@ -105,7 +105,7 @@ body {
 
 @media only screen and (max-width: 500px) {
     .container img {
-        width: 90px; /* Adjust the width for smaller screens */
+        width: 90px; 
     }
 
     .winner p {
